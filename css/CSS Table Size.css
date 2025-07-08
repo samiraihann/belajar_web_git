@@ -1,0 +1,17 @@
+/* Table Width and Height
+The width and height of a table are defined by the width and height properties.
+
+The example below sets the width of the table to 100%, and the height of the <th> elements to 70px: */
+
+table {
+  width: 100%;
+}
+
+th {
+  height: 70px;
+}
+
+
+table {
+  width: 50%;
+}

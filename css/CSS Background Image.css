@@ -1,0 +1,16 @@
+/* CSS background-image
+The background-image property specifies an image to use as the background of an element.
+
+By default, the image is repeated so it covers the entire element. */
+
+body {
+  background-image: url("paper.gif");
+}
+
+body {
+  background-image: url("bgdesert.jpg");
+}
+
+p {
+  background-image: url("paper.gif");
+}

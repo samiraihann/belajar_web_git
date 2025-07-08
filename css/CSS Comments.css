@@ -1,0 +1,47 @@
+/* CSS Comments
+Comments are used to explain the code, and may help when you edit the source code at a later date.
+
+Comments are ignored by browsers. */
+
+p {
+  color: red;
+}
+
+p {
+  color: red;  /* Set text color to red */
+}
+
+p {
+  color: /*red*/blue; 
+}
+
+/* This is
+a multi-line
+comment */
+
+p {
+  color: red;
+}
+
+/* HTML and CSS Comments */
+
+/* <!DOCTYPE html>
+<html>
+<head>
+<style>
+p {
+  color: red;
+}
+</style>
+</head>
+<body>
+
+<h2>My Heading</h2>
+
+<!-- These paragraphs will be red -->
+<p>Hello World!</p>
+<p>This paragraph is styled with CSS.</p>
+<p>HTML and CSS comments are not shown in the output.</p>
+
+</body>
+</html> */

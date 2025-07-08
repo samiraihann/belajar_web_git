@@ -1,0 +1,34 @@
+/* Text Shadow
+The text-shadow property adds shadow to text. */
+
+h1 {
+  text-shadow: 2px 2px;
+}
+
+
+h1 {
+  text-shadow: 2px 2px red;
+}
+
+
+h1 {
+  text-shadow: 2px 2px 5px red;
+}
+
+/* More Text Shadow Examples */
+
+h1 {
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+
+h1 {
+  text-shadow: 0 0 3px #ff0000;
+}
+
+h1 {
+  text-shadow: 0 0 3px #ff0000, 0 0 5px #0000ff;
+}
+
+

@@ -1,0 +1,11 @@
+/* The CSS Font Property
+To shorten the code, it is also possible to specify all the individual font properties in one property. */
+
+p.a {
+  font: 20px Arial, sans-serif;
+}
+
+p.b {
+  font: italic small-caps bold 12px/30px Georgia, serif;
+}
+

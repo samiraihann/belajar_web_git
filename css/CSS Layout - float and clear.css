@@ -1,0 +1,21 @@
+/* Example - float: right;
+The following example specifies that an image should float to the right in a text: */
+
+img {
+  float: right;
+}
+
+/* Example - float: left;
+The following example specifies that an image should float to the left in a text: */
+
+img {
+  float: left;
+}
+
+/* Example - No float
+In the following example the image will be displayed just where it occurs in the text (float: none;): */
+
+img {
+  float: none;
+}
+

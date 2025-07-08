@@ -1,0 +1,21 @@
+/* The CSS Box Model
+In CSS, the term "box model" is used when talking about design and layout. */
+
+div {
+  width: 300px;
+  border: 15px solid green;
+  padding: 50px;
+  margin: 20px;
+}
+
+/* Width and Height of an Element
+In order to set the width and height of an element correctly in all browsers, you need to know how the box model works. */
+
+div {
+  width: 320px;
+  height: 50px;
+  padding: 10px;
+  border: 5px solid gray;
+  margin: 0;
+}
+

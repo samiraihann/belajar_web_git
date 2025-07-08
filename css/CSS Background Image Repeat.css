@@ -1,0 +1,32 @@
+/* CSS background-repeat
+By default, the background-image property repeats an image both horizontally and vertically.
+
+Some images should be repeated only horizontally or vertically, or they will look strange, like this:
+*/
+
+body {
+  background-image: url("gradient_bg.png");
+}
+
+body {
+  background-image: url("gradient_bg.png");
+  background-repeat: repeat-x;
+}
+
+/* CSS background-repeat: no-repeat
+Showing the background image only once is also specified by the background-repeat property: */
+
+body {
+  background-image: url("img_tree.png");
+  background-repeat: no-repeat;
+}
+
+/* CSS background-position
+The background-position property is used to specify the position of the background image. */
+
+body {
+  background-image: url("img_tree.png");
+  background-repeat: no-repeat;
+  background-position: right top;
+}
+

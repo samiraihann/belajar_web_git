@@ -1,0 +1,12 @@
+/* How To Use Google Fonts
+Just add a special style sheet link in the <head> section and then refer to the font in the CSS. */
+
+/* <head>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+<style>
+body {
+  font-family: "Sofia", sans-serif;
+}
+</style>
+</head> */
+

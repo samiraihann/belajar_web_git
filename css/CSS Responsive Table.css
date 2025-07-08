@@ -1,0 +1,15 @@
+/* Responsive Table
+A responsive table will display a horizontal scroll bar if the screen is too small to display the full content:
+
+ */
+
+ /* <div style="overflow-x:auto;">
+
+<table>
+... table content ...
+</table>
+
+</div> */
+
+
+

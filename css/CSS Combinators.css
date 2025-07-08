@@ -1,0 +1,29 @@
+/* CSS Combinators */
+
+/* Descendant Combinator
+The descendant combinator matches all elements that are descendants of a specified element.
+
+The following example selects all <p> elements inside <div> elements: 
+ */
+
+ div p {
+  background-color: yellow;
+}
+
+/* Child Combinator (>)
+The child combinator selects all elements that are the children of a specified element.
+
+The following example selects all <p> elements that are children of a <div> element: */
+
+div > p {
+  background-color: yellow;
+}
+
+/* Next Sibling Combinator (+)
+The next sibling combinator is used to select an element that is directly after another specific element.
+
+*/
+div + p {
+  background-color: yellow;
+}
+

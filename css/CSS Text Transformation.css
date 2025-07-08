@@ -1,0 +1,14 @@
+/* Text Transformation
+The text-transform property is used to specify uppercase and lowercase letters in a text. */
+
+p.uppercase {
+  text-transform: uppercase;
+}
+
+p.lowercase {
+  text-transform: lowercase;
+}
+
+p.capitalize {
+  text-transform: capitalize;
+}

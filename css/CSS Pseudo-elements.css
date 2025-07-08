@@ -1,0 +1,33 @@
+/* What are Pseudo-Elements?
+A CSS pseudo-element is used to style specific parts of an element. */
+
+/* selector::pseudo-element {
+  property: value;
+} */
+
+
+/* The ::first-line Pseudo-element
+The ::first-line pseudo-element is used to add a special style to the first line of a text.
+
+The following example formats the first line of the text in all <p> elements: */
+
+p::first-line {
+  color: #ff0000;
+  font-variant: small-caps;
+}
+
+/* The ::first-letter Pseudo-element
+The ::first-letter pseudo-element is used to add a special style to the first letter of a text. */
+
+p::first-letter {
+  color: #ff0000;
+  font-size: xx-large;
+}
+
+/* Pseudo-elements and HTML Classes
+Pseudo-elements can be combined with HTML classes:  */
+
+p.intro::first-letter {
+  color: #ff0000;
+  font-size: 200%;
+}

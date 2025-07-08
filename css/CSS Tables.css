@@ -1,0 +1,26 @@
+/* Table Borders
+To specify table borders in CSS, use the border property. */
+
+table, th, td {
+  border: 1px solid;
+}
+
+/* Full-Width Table
+The table above might seem small in some cases. If you need a table that should span the entire screen (full-width), add width: 100% to the <table> element:
+
+*/
+table {
+  width: 100%;
+}
+
+/* Collapse Table Borders
+The border-collapse property sets whether the table borders should be collapsed into a single border: */
+
+table {
+  border-collapse: collapse;
+}
+
+
+table {
+  border: 1px solid;
+}

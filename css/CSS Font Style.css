@@ -1,0 +1,37 @@
+/* Font Style
+The font-style property is mostly used to specify italic text. */
+
+p.normal {
+  font-style: normal;
+}
+
+p.italic {
+  font-style: italic;
+}
+
+p.oblique {
+  font-style: oblique;
+}
+
+/* Font Weight
+The font-weight property specifies the weight of a font: */
+
+p.normal {
+  font-weight: normal;
+}
+
+p.thick {
+  font-weight: bold;
+}
+
+/* Font Variant
+The font-variant property specifies whether or not a text should be displayed in a small-caps font. */
+
+p.normal {
+  font-variant: normal;
+}
+
+p.small {
+  font-variant: small-caps;
+}
+

@@ -1,0 +1,84 @@
+/* Different List Item Markers
+The list-style-type property specifies the type of list item marker.
+
+The following example shows some of the available list item markers: */
+
+ul.a {
+  list-style-type: circle;
+}
+
+ul.b {
+  list-style-type: square;
+}
+
+ol.c {
+  list-style-type: upper-roman;
+}
+
+ol.d {
+  list-style-type: lower-alpha;
+}
+
+/* An Image as The List Item Marker
+The list-style-image property specifies an image as the list item marker: */
+
+ul {
+  list-style-image: url('sqpurple.gif');
+}
+
+/* Position The List Item Markers
+The list-style-position property specifies the position of the list-item markers (bullet points).
+ */
+
+ ul.a {
+  list-style-position: outside;
+}
+
+ul.b {
+  list-style-position: inside;
+}
+
+/* Remove Default Settings
+The list-style-type:none property can also be used to remove the markers/bullets. Note that the list also has default margin and padding. To remove this, add margin:0 and padding:0 to <ul> or <ol>: */
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* List - Shorthand property
+The list-style property is a shorthand property. It is used to set all the list properties in one declaration: */
+
+ul {
+  list-style: square inside url("sqpurple.gif");
+}
+
+/* Styling List With Colors
+We can also style lists with colors, to make them look a little more interesting.
+
+Anything added to the <ol> or <ul> tag, affects the entire list, while properties added to the <li> tag will affect the individual list items: */
+
+ol {
+  background: #ff9999;
+  padding: 20px;
+}
+
+ul {
+  background: #3399ff;
+  padding: 20px;
+}
+
+ol li {
+  background: #ffe5e5;
+  color: darkred;
+  padding: 5px;
+  margin-left: 35px;
+}
+
+ul li {
+  background: #cce5ff;
+  color: darkblue;
+  margin: 5px;
+}
+

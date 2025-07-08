@@ -1,0 +1,9 @@
+/* Fallback Fonts
+However, there are no 100% completely web safe fonts. There is always a chance that a font is not found or is not installed properly.
+
+ */
+
+ p {
+font-family: Tahoma, Verdana, sans-serif;
+}
+

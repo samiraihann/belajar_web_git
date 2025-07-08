@@ -1,0 +1,27 @@
+/* Transparent Image
+The opacity property can take a value from 0.0 - 1.0. The lower the value, the more transparent: */
+
+img {
+  opacity: 0.5;
+}
+
+
+Example
+img {
+  opacity: 0.5;
+}
+
+img:hover {
+  opacity: 1.0;
+}
+
+/* Transparent Box
+When using the opacity property to add transparency to the background of an element, all of its child elements inherit the same transparency. This can make the text inside a fully transparent element hard to read:
+
+
+*/
+
+div {
+ 
+    opacity: 0.3;
+}

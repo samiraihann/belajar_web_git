@@ -1,0 +1,50 @@
+/* Set Font Size With Pixels
+Setting the text size with pixels gives you full control over the text size: */
+
+h1 {
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+p {
+  font-size: 14px;
+}
+
+/* Set Font Size With Em
+To allow users to resize the text (in the browser menu), many developers use em instead of pixels. */
+
+h1 {
+  font-size: 2.5em; /* 40px/16=2.5em */
+}
+
+h2 {
+  font-size: 1.875em; /* 30px/16=1.875em */
+}
+
+p {
+  font-size: 0.875em; /* 14px/16=0.875em */
+}
+
+
+/* Use a Combination of Percent and Em
+The solution that works in all browsers, is to set a default font-size in percent for the <body> element: */
+
+body {
+  font-size: 100%;
+}
+
+h1 {
+  font-size: 2.5em;
+}
+
+h2 {
+  font-size: 1.875em;
+}
+
+p {
+  font-size: 0.875em;
+}
+

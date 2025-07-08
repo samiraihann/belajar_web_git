@@ -1,0 +1,70 @@
+/* Text Alignment
+The text-align property is used to set the horizontal alignment of a text.
+
+A text can be left or right aligned, centered, or justified. */
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: left;
+}
+
+h3 {
+  text-align: right;
+}
+
+
+div {
+  text-align: justify;
+}
+
+
+/* Text Align Last
+The text-align-last property specifies how to align the last line of a text. */
+
+p.a {
+  text-align-last: right;
+}
+
+p.b {
+  text-align-last: center;
+}
+
+p.c {
+  text-align-last: justify;
+}
+
+/* Text Direction
+The direction and unicode-bidi properties can be used to change the text direction of an element: */
+
+p {
+  direction: rtl;
+  unicode-bidi: bidi-override;
+}
+
+
+/*Vertical Alignment
+The vertical-align property sets the vertical alignment of an element.  */
+
+img.a {
+  vertical-align: baseline;
+}
+
+img.b {
+  vertical-align: text-top;
+}
+
+img.c {
+  vertical-align: text-bottom;
+}
+
+img.d {
+  vertical-align: sub;
+}
+
+img.e {
+  vertical-align: super;
+}
+

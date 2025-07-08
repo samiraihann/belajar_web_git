@@ -1,0 +1,15 @@
+/* The CSS font-family Property
+In CSS, we use the font-family property to specify the font of a text. */
+
+.p1 {
+  font-family: "Times New Roman", Times, serif;
+}
+
+.p2 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.p3 {
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+

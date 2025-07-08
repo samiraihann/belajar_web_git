@@ -1,0 +1,33 @@
+/* CSS Performance and Optimization
+Writing efficient CSS helps your website load faster and run more smoothly, especially on slower devices.
+
+Here are some tips to improve CSS performance:
+
+1. Use Simple Selectors
+Complex selectors take longer for the browser to match. Keep them simple when possible. */
+
+/* Bad Example */
+ul li a.button:hover {
+  background-color: blue;
+}
+/* Better Example */
+.button:hover {
+  background-color: blue;
+}
+
+
+/* 2. Avoid Universal Selector for Styling
+Using * affects every element and can slow down page rendering. */
+
+/* Bad Example */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* 3. Avoid Inline Styles
+Inline styles make your HTML heavier and are harder to manage and cache. */
+
+/* Bad Example */
+/* <div style="color: red; font-size: 18px;">Hello</div> */
+

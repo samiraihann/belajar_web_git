@@ -1,0 +1,20 @@
+/* Horizontal Alignment
+The text-align property sets the horizontal alignment (like left, right, or center) of the content in <th> or <td>. */
+
+td {
+  text-align: center;
+}
+
+
+th {
+  text-align: left;
+}
+
+
+/* Vertical Alignment
+The vertical-align property sets the vertical alignment (like top, bottom, or middle) of the content in <th> or <td>. */
+
+td {
+  height: 50px;
+  vertical-align: bottom;
+}

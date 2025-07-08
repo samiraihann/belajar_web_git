@@ -1,0 +1,17 @@
+/* CSS background - Shorthand property
+To shorten the code, it is also possible to specify all the background properties in one single property. This is called a shorthand property.
+
+Instead of writing: */
+
+body {
+  background-color: #ffffff;
+  background-image: url("img_tree.png");
+  background-repeat: no-repeat;
+  background-position: right top;
+}
+
+
+body {
+  background: #ffffff url("img_tree.png") no-repeat right top;
+}
+

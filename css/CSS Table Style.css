@@ -1,0 +1,34 @@
+/* Table Padding
+To control the space between the border and the content in a table, use the padding property on <td> and <th> elements:
+
+ */
+
+ th, td {
+  padding: 15px;
+  text-align: left;
+}
+
+/* Horizontal Dividers */
+
+th, td {
+  border-bottom: 1px solid #ddd;
+}
+
+/* Hoverable Table
+Use the :hover selector on <tr> to highlight table rows on mouse over:
+
+*/
+
+tr:hover {background-color: coral;}
+
+/* Striped Tables */
+
+tr:nth-child(even) {background-color: #f2f2f2;}
+
+/* Table Color */
+
+th {
+  background-color: #04AA6D;
+  color: white;
+}
+
