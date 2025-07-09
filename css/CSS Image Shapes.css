@@ -1,0 +1,39 @@
+img {
+  clip-path: circle(50%);
+}
+
+
+img {
+  clip-path: circle(50% at right);
+}
+
+
+img {
+  float: left;
+  clip-path: circle(40%);
+  shape-outside: circle(45%);
+}
+
+
+img {
+  clip-path: ellipse(50% 35%);
+}
+
+
+img {
+  clip-path: ellipse(50% 35% at right);
+}
+
+
+img {
+  float: left;
+  clip-path: ellipse(40% 50%);
+  shape-outside: ellipse(45% 50%);
+}
+
+
+img {
+  clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+}
+
+

@@ -1,0 +1,36 @@
+body {
+  background-image: url("paper.gif");
+}
+
+div {
+  background-color: transparent;
+}
+
+
+div {
+  color: blue;
+  border: 10px solid currentcolor;
+}
+
+
+
+body {
+  color: purple;
+}
+
+div {
+  background-color: currentcolor;
+}
+
+
+body {
+ color: green;
+}
+
+div {
+  box-shadow: 0px 0px 15px currentcolor;
+  border: 5px solid currentcolor;
+}
+
+
+

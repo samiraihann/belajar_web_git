@@ -1,0 +1,46 @@
+img {
+  width: 200px;
+  height: 300px;
+}
+
+
+img {
+  width: 200px;
+  height: 300px;
+  object-fit: cover;
+}
+
+
+img {
+  width: 200px;
+  height: 300px;
+  object-fit: contain;
+}
+
+
+img {
+  width: 200px;
+  height: 300px;
+  object-fit: fill;
+}
+
+
+img {
+  width: 200px;
+  height: 300px;
+  object-fit: none;
+}
+
+
+img {
+  width: 200px;
+  height: 300px;
+  object-fit: scale-down;
+}
+
+
+.fill {object-fit: fill;}
+.contain {object-fit: contain;}
+.cover {object-fit: cover;}
+.scale-down {object-fit: scale-down;}
+.none {object-fit: none;}

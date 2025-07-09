@@ -1,0 +1,33 @@
+.container {
+  display: grid;
+  column-gap: 50px;
+}
+
+
+.container {
+  display: grid;
+  row-gap: 50px;
+}
+
+
+.container {
+  display: grid;
+  gap: 50px 100px;
+}
+
+
+.container {
+  display: grid;
+  gap: 50px;
+}
+
+
+.item1 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+
+.item1 {
+  grid-column: 1 / span 2;
+}

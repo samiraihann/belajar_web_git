@@ -1,0 +1,25 @@
+#grad {
+  background-image: radial-gradient(red, yellow, green);
+}
+
+
+#grad {
+  background-image: radial-gradient(red 5%, yellow 15%, green 60%);
+}
+
+
+#grad {
+  background-image: radial-gradient(circle, red, yellow, green);
+}
+
+
+#grad1 {
+  background-image: radial-gradient(closest-side at 60% 55%, red, yellow, black);
+}
+
+#grad2 {
+  background-image: radial-gradient(farthest-side at 60% 55%, red, yellow, black);
+}
+
+
+

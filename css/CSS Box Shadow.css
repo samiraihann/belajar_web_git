@@ -1,0 +1,23 @@
+div {
+  box-shadow: 10px 10px;
+}
+
+
+div {
+  box-shadow: 10px 10px lightblue;
+}
+
+
+div {
+  box-shadow: 10px 10px 5px lightblue;
+}
+
+
+div {
+  box-shadow: 10px 10px 5px 12px lightblue;
+}
+
+
+div {
+  box-shadow: 10px 10px 5px lightblue inset;
+}
