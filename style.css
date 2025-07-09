@@ -1,55 +1,54 @@
-/* Reset dasar */
-* {
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to bottom right, #f0f8ff, #e6f0fa);
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: #f9f9f9;
     color: #333;
-    padding: 20px;
-    line-height: 1.6;
 }
 
-/* Judul utama */
 h1 {
     text-align: center;
-    color: #2c3e50;
-    margin-bottom: 30px;
-}
-
-/* Container untuk navigasi */
-body {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-/* Styling semua link */
-a {
-    display: inline-block;
-    margin: 5px;
-    padding: 10px 15px;
-    text-decoration: none;
-    background-color: #3498db;
+    padding: 20px;
+    background-color: #007BFF;
     color: white;
-    border-radius: 5px;
-    transition: background-color 0.3s, transform 0.2s;
-    font-size: 14px;
+    margin: 0;
 }
 
-/* Hover efek */
-a:hover {
-    background-color: #2980b9;
+.link-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    gap: 10px;
+}
+
+.link-container a {
+    text-decoration: none;
+    background-color: #ffffff;
+    border: 2px solid #007BFF;
+    padding: 150px 100px;
+    border-radius: 6px;
+    color: #007BFF;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.link-container a:hover {
+    background-color: #007BFF;
+    color: white;
     transform: scale(1.05);
 }
 
-/* Responsive layout - wrap link */
-body {
-    max-width: 960px;
-    margin: auto;
-    flex-wrap: wrap;
-    gap: 10px;
+#search-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+#search-input {
+    padding: 10px;
+    width: 50%;
+    font-size: 16px;
+    border: 2px solid #007BFF;
+    border-radius: 5px;
 }
